@@ -55,7 +55,7 @@ export const NavBtn = styled.nav`
 `;
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  backgroud: #256ce1;
+  background: #256ce1;
   padding: 10px 22px;
   color: #fff;
   border: none;
@@ -69,4 +69,13 @@ export const NavBtnLink = styled(Link)`
     background: #fff;
     color: #010606;
   }
+`;
+export const LogoHeader = styled.h1`
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  margin:0px
 `;

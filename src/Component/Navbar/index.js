@@ -1,11 +1,11 @@
 import React from "react";
-import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from "./Navbar";
-const Nav = () => {
-  <div>
+import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink, LogoHeader } from "./Navbar";
+const Navbar = () => {
+  return (
     <Nav>
-      <NavLink to="/">
-        <h1>Logo</h1>
-      </NavLink>
+      <LogoHeader>
+        React vlog
+      </LogoHeader>
       <Bars />
       <NavMenu>
         <NavLink to="/home" activeStyle>
@@ -25,7 +25,7 @@ const Nav = () => {
         </NavBtn>
       </NavMenu>
     </Nav>
-  </div>;
+  );
 };
 
-export default index;
+export default Navbar;
